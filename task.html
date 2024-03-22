@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=201210940920">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a passionate data analysis with a keen interest in creating meaningful and user-friendly data.</p>
+            <img src="photo_2024-03-22_17-15-01.jpg" alt="My Profile Picture" width="250" height="180">
+        </section>
+        <div>
+            <section id="programming-languages">
+                <h2>Programming Languages</h2>
+                <table  border="=1">
+                    <tr>
+                        <th>Language</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>java</td>
+                        <td>average</td>
+                    </tr>
+                </table>
+            </section>            
+        </div>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><iframe width="250" height="180" src="https://www.youtube.com/embed/bJGtltuJ4Ws?si=HUR8leAl1JtDq-qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Project 1</iframe></li>
+                <li><iframe width="250" height="180" src="https://www.youtube.com/embed/h_HhSUKnU3Q?si=eJANUxl97GliaNZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+        </section>
+    </main>
+</body>
+</html>
